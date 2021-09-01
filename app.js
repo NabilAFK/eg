@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (tilesWon.length === tiles.length / 2) {
       setTimeout(() => {
-        alert("You Won");
+        alert("GG, you won the game!");
       }, 1000);
     }
   }
